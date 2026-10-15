@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import React from "react";
 import { AppProvider } from "@/context/AppContext";
 import SidebarNav from "@/components/SidebarNav";
+import "./globals.css";
+
 
 export const metadata: Metadata = {
   title: "Study Parlour Management Platform",

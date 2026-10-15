@@ -1,9 +1,18 @@
 # Build status
 ## Done (Stage 1 & Stage 2 Database Complete)
-- package.json, .gitignore, .env.local framework parameters verified.
-- src/lib/money.ts validation tests passing.
-- supabase/migrations/0001: core roles, credit accounting tracking rules active.
-- supabase/migrations/0002: decimal-safe invoicing rules, multi-currency ledger engines, sibling payment tracking, manual verification boards, absolute owner-verified refund mechanisms, and strict role isolation RLS structures deployed successfully.
+- Design the relational schema.
+- Create migrations.
+- Define foreign keys, constraints, indexes, and data types.
+- Configure Supabase Auth.
+- Implement user profiles and role management.
+- Add RLS policies.
+- Build account invitations, password recovery, and verification.
+- Test role and relationship isolation.
+
 ## Next
-- App shell setup (Next.js app router layout rendering).
-- Configure web identity components (Supabase verification redirect link actions).
+- Build the application shell and role-specific navigation.
+- Implement owner dashboard.
+- Implement students, guardians, tutors, and administrators.
+- Implement configurable administrator permissions.
+- Implement academy settings and branding.
+- Implement enrollment and guardian verification workflows
