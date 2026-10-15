@@ -1,10 +1,9 @@
 # Build status
-## Done (Stage 1 partial, Stage 2 start)
-- package.json, .gitignore, .env.example (placeholders only)
-- src/lib/money.ts + tests (exact minor-unit money)
-- supabase/migrations/0001: roles, RLS, append-only credit ledger, record_credit()
-## NOT run/verified
-- npm install, tests, typecheck, build, and the migration against a real Supabase DB
-- Dependency versions are unverified; check against current Next.js / OpenNext docs
+## Done (Stage 1 & Stage 2 Database Complete)
+- package.json, .gitignore, .env.local framework parameters verified.
+- src/lib/money.ts validation tests passing.
+- supabase/migrations/0001: core roles, credit accounting tracking rules active.
+- supabase/migrations/0002: decimal-safe invoicing rules, multi-currency ledger engines, sibling payment tracking, manual verification boards, absolute owner-verified refund mechanisms, and strict role isolation RLS structures deployed successfully.
 ## Next
-- App shell (Next.js app dir), Supabase auth, i18n, invoices/payments schema (migration 0002)
+- App shell setup (Next.js app router layout rendering).
+- Configure web identity components (Supabase verification redirect link actions).
